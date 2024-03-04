@@ -1,0 +1,102 @@
+/*
+sablona na form 1.0
+
+*/
+.wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clr {clear:both;}
+#contakt-form {
+ background: #f7f7f7;
+ padding: 40px 0;
+}
+/*kontaktna stranka 
+=============================================*/
+.contakt-form-fehld{
+  margin-left: 400px;
+}
+.contakt-form-fehld input{
+  margin-bottom:30px;
+}
+#contakt-form input[type="text"] {
+  border: 1px solid #d8d8d8;
+  background: #fff;
+  color: #666;
+  line-height: 26px;
+  height: 36px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  transition: all .2s ease;
+  border-radius: 2px;
+  width: 99%;
+  font-family: 'PT Sans',Arial,Helvetica !important;
+  font-size: 13px;
+}
+#contakt-form textarea {
+  border: 1px solid #d8d8d8;
+  background: #fff;
+  color: #666;
+  line-height: 26px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  transition: all .2s ease;
+  border-radius: 2px;
+  width: 99%;
+  font-family: 'PT Sans',Arial,Helvetica !important;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+#contakt-form input[name="f7"]{
+  width: 200px;
+
+}
+#contakt-form input[type="submit"]{
+  display: block;
+  padding: 12px;
+  font-size: 14px;
+  background: #ce0707;
+  text-align: center;
+  margin: 10px auto;
+  cursor: pointer;
+  color: #fff;
+  border:none;
+
+}
+#contakt-form input[type="submit"]:hover{  
+  background-color: #b30303;
+  text-decoration: none;
+}
+.contakt-form-info ul{
+  float: left;
+  width: 370px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.contakt-info i {
+  float: left;
+  padding: 3px 20px 0 0;
+  font-size: 55px;
+  color: cornflowerblue;
+}
+.contakt-info span{
+  display:block;
+  margin-left:80px;
+}
+
+li.contakt-info {
+  margin-bottom: 40px;
+}
+
+.contakt-info span {
+  display: block;
+  margin-left: 80px;
+  margin-bottom: 5px;
+}
+.contakt-info h3 {
+  padding-left: 80px;
+}
